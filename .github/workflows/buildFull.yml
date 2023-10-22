@@ -17,7 +17,7 @@ on:
 jobs:
   build:
     name: Build OpenCascade.js
-    runs-on: [self-hosted, full]
+    runs-on: [ubuntu-latest]
     timeout-minutes: 10000
     steps:
       - name: Checkout Repository
